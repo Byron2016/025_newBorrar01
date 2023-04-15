@@ -11,10 +11,7 @@
     "express": "^4.17.2"
   },
   "scripts": {
-    "start": "npm run build && node dist/index.js",
-    "build": "rimraf ./dist",
-    "tsc": "tsc",
-    "dev": "set debug=* && ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "start": "node index.js",
     "hustart": "nodemon index.js"
   }
 }
