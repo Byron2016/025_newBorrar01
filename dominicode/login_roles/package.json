@@ -11,7 +11,7 @@
     "express": "^4.17.2"
   },
   "scripts": {
-    "start": "node index.js",
-    "hustart": "nodemon index.js"
+    "start": "node src/index.js",
+    "hustart": "nodemon src/index.js"
   }
 }
