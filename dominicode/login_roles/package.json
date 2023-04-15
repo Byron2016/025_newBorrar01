@@ -1,0 +1,20 @@
+{
+  "name": "login_roles",
+  "version": "0.0.1",
+  "description": "Awesome project developed with TypeORM.",
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "rimraf": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "build": "rimraf ./dist",
+    "tsc": "tsc",
+    "dev": "set debug=* && ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "hustart": "nodemon index.js"
+  }
+}
