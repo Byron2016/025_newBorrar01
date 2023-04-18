@@ -6,4 +6,4 @@ tmp/
 temp/
 
 data-key.json
-dist/
+#dist/
