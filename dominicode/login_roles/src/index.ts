@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Routes
 app.get("/", (req: Request, res: Response) => {
-  res.send("pagina inicio");
+  res.send("P001_pagina inicio");
 });
 
 app.get("/test", (_req: Request, res: Response) => {
@@ -23,7 +23,7 @@ app.get("/test", (_req: Request, res: Response) => {
 });
 
 app.get("/ping", (_req: Request, res: Response) => {
-  return res.send("NewBorrar_01 pong.. --> 🏓");
+  return res.send("MNewBorrar_01 pong.. --> 🏓");
 });
 
 // start express server
